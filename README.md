@@ -3,6 +3,7 @@
 ##### Developer Tools
 ```
 * Eclipse 
+* Intellij IDEA
 ```
 
 ##### Developer Settings
