@@ -30,12 +30,10 @@ public class IndexController {
         item.put("href", "post");
         item.put("updated", "2020/01/04");
 
-
         val itemList = new ArrayList<>();
         itemList.add(item);
         itemList.add(item);
         itemList.add(item);
-
         System.out.println(itemList);
         model.addAttribute("itemList",itemList);
         return "index";
