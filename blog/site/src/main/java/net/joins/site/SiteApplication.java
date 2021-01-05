@@ -1,5 +1,6 @@
 package net.joins.site;
 
+import net.joins.domain.entity.Post;
 import net.joins.web.service.BlogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -10,18 +11,17 @@ public class SiteApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SiteApplication.class, args);
-
         System.out.println("=====================");
         System.out.println("Applcation is starting");
         System.out.println("=====================");
-
+        Post post = new Post();
 
     }
 
     @Autowired
     BlogService blogService;
 
-    // @Override
+    //@Override
     // public void run(String... args) throws Exception {
     //     Post post = new Post();
     //     post.setTitle("joins.net blog");
