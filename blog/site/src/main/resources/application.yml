@@ -9,5 +9,12 @@ spring:
   datasource:
     url: jdbc:h2:mem:tempdb
 
+  profiles:
+    dev
+
+logging:
+  level:
+    root: info
+
 ---
 spring.profiles: prod

@@ -12,7 +12,6 @@ import net.joins.domain.repository.PostRepository;
 @Service
 public class BlogService {
 
-    // 롬복 알아가면서 가도록...
     final PostRepository postRepository;
 
     public void addPost(Post post) {
